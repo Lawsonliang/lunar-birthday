@@ -2,19 +2,42 @@
 
 中国农历与新历（公历）日期互查工具，以及农历生日管家。
 
+---
+
+## 安装 Skill
+
+### Trae IDE
+
+1. 克隆仓库：
+   ```bash
+   git clone https://github.com/Lawsonliang/lunar-birthday.git
+   ```
+2. 在 Trae IDE 中打开项目目录
+3. 安装依赖：
+   ```bash
+   pip install lunar_python --break-system-packages
+   ```
+
+### Claude Code / Codeq / Cursor / OpenClaw 等通用 AI 助手
+
+1. 克隆仓库：
+   ```bash
+   git clone https://github.com/Lawsonliang/lunar-birthday.git
+   cd lunar-birthday
+   ```
+2. 安装依赖：
+   ```bash
+   pip install lunar_python --break-system-packages
+   ```
+3. 将 `SKILL.md` 中的内容添加到你的 AI 助手的 skill 配置中
+
+---
+
 ## 功能
 
 - **日期互查** — 新历 ↔ 农历精确转换，支持闰月
 - **生日管理** — 记录家人农历生日，自动计算当年新历日期
 - **生日提醒** — 检查即将到来的农历生日
-
-## 安装
-
-```bash
-git clone https://github.com/Lawsonliang/lunar-birthday.git
-cd lunar-birthday
-pip install lunar_python --break-system-packages
-```
 
 ## 使用
 
